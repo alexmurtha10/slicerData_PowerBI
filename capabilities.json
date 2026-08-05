@@ -1,0 +1,158 @@
+{
+  "dataRoles": [
+    {
+      "name": "category",
+      "kind": "Grouping",
+      "displayName": "Mês/Ano",
+      "description": "Campo texto no formato Jan/2026"
+    }
+  ],
+
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "category": {
+            "max": 1
+          }
+        }
+      ],
+
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "category"
+          },
+
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        }
+      }
+    }
+  ],
+
+  "objects": {
+    "generalConfig": {
+      "displayName": "Comportamento",
+
+      "properties": {
+
+        "titleText": {
+          "displayName": "Título",
+
+          "type": {
+            "text": true
+          }
+        },
+
+        "useCurrentMonth": {
+          "displayName": "Iniciar no Mês Atual",
+
+          "type": {
+            "bool": true
+          }
+        },
+
+        "defaultMonth": {
+          "displayName": "Mês padrão",
+
+          "type": {
+            "text": true
+          }
+        },
+
+        "sortDescending": {
+          "displayName": "Ordenação Descendente",
+
+          "type": {
+            "bool": true
+          }
+        },
+
+        "locale": {
+          "displayName": "Idioma",
+
+          "type": {
+            "enumeration": [
+              {
+                "value": "pt-BR",
+                "displayName": "Português"
+              },
+
+              {
+                "value": "en-US",
+                "displayName": "English"
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    "visualStyle": {
+      "displayName": "Estilo",
+
+      "properties": {
+
+        "fontSize": {
+          "displayName": "Tamanho Fonte",
+
+          "type": {
+            "numeric": true
+          }
+        },
+
+        "fontColor": {
+          "displayName": "Cor Fonte",
+
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+
+        "background": {
+          "displayName": "Cor Fundo",
+
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+
+        "accentColor": {
+          "displayName": "Cor Seleção",
+
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+
+        "borderColor": {
+          "displayName": "Cor Borda",
+
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "privileges": []
+}
