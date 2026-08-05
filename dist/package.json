@@ -1,14 +1,14 @@
 {
 		"version": "1.0.0.0",
-		"author": {"name":"Alex Murtha","email":"a.ferreira@ocyan-sa.com"},
+		"author": {"name":"Alex Murtha","email":"alexmurtha@outlook.com"},
 		"resources": [
 			{
 				"resourceId": "rId0",
 				"sourceType": 5,
-				"file": "resources/monthYearSlicer_20260804.pbiviz.json"
+				"file": "resources/monthYearSlicer_AM.pbiviz.json"
 			}
 		],
-		"visual": {"name":"monthYearSlicer","displayName":"Month/Year Slicer","guid":"monthYearSlicer_20260804","visualClassName":"Visual","version":"1.0.0.0","description":"Slicer personalizado que agrupa uma coluna de datas por Mês/Ano (distinct), com opção de iniciar sempre no mês atual ou em um valor padrão configurável.","supportUrl":"https://github.com/alexmurtha10/calendario_powerbi","gitHubUrl":"https://github.com/alexmurtha10/calendario_powerbi"},
+		"visual": {"name":"monthYearSlicer","displayName":"Month/Year Slicer","guid":"monthYearSlicer_AM","visualClassName":"Visual","version":"1.0.0.0","description":"Slicer personalizado que agrupa uma coluna de datas por Mês/Ano (distinct), com opção de iniciar sempre no mês atual ou em um valor padrão configurável.","supportUrl":"https://github.com/alexmurtha10/calendario_powerbi","gitHubUrl":"https://github.com/alexmurtha10/calendario_powerbi"},
 		"metadata": {
 			"pbivizjson": {
 				"resourceId": "rId0"

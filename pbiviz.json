@@ -2,7 +2,7 @@
     "visual": {
         "name": "monthYearSlicer",
         "displayName": "Month/Year Slicer",
-        "guid": "monthYearSlicer_20260804",
+        "guid": "monthYearSlicer_AM",
         "visualClassName": "Visual",
         "version": "1.0.0.0",
         "description": "Slicer personalizado que agrupa uma coluna de datas por Mês/Ano (distinct), com opção de iniciar sempre no mês atual ou em um valor padrão configurável.",
@@ -12,7 +12,7 @@
     "apiVersion": "5.8.0",
     "author": {
         "name": "Alex Murtha",
-        "email": "a.ferreira@ocyan-sa.com"
+        "email": "alexmurtha@outlook.com"
     },
     "assets": {
         "icon": "assets/icon.png"
